@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo Motor: La mejor tienda de motos con las últimas novedades y modelos.">
     <title>Página de Mundo Motor</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <style>
@@ -11,14 +12,22 @@
             margin: 0;
             padding: 0;
             background: linear-gradient(to right, #ff7e5f, #feb47b);
-            background-image: url('FNG.jpg'); /* Asegúrate que la imagen esté en la ubicación correcta */
+            background-image: url('FNG.jpg'); /* Imagen de fondo */
             background-size: cover;
             background-position: center;
         }
 
+        /* Ajuste del fondo en dispositivos móviles */
+        @media (max-width: 768px) {
+            body {
+                background-image: none; /* Sin imagen de fondo en móviles */
+                background-color: #ff7e5f; /* Color degradado en lugar de imagen */
+            }
+        }
+
         header {
             background-color: rgba(92, 16, 33, 0.952);
-            color: rgb(247, 236, 236);
+            color: white;
             text-align: center;
             padding: 20px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -163,6 +172,15 @@
                 display: block;
                 margin: 5px 0;
             }
+
+            h1 {
+                font-size: 2em; /* Ajuste del tamaño de texto en el título */
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 16px; /* Botones más pequeños */
+            }
         }
     </style>
 </head>
@@ -182,12 +200,12 @@
 <main>
     <div class="motos">
         <div class="moto-item">
-            <img src="moto1.jpg" alt="Moto 1" class="moto-image"> <!-- Asegúrate que la imagen esté disponible -->
+            <img src="moto1.jpg" alt="Imagen de la Moto 1 - Modelo deportivo" class="moto-image"> <!-- Asegúrate que la imagen esté disponible -->
             <h3>Moto 1</h3>
             <button>Ver Detalles</button>
         </div>
         <div class="moto-item">
-            <img src="moto2.jpg" alt="Moto 2" class="moto-image">
+            <img src="moto2.jpg" alt="Imagen de la Moto 2 - Modelo clásico" class="moto-image">
             <h3>Moto 2</h3>
             <button>Ver Detalles</button>
         </div>
