@@ -2,7 +2,7 @@
 
 > Catálogo estático de motocicletas en una sola página, con secciones por marca y cotización por WhatsApp.
 
-## 🇪🇸 Español
+## Español
 
 ### ¿Qué es?
 
@@ -67,7 +67,7 @@ Los tres repositorios (`MOTOMANIA-JC`, `MotosJC` y `JCMOTOS`) son variantes del 
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### What is it?
 
